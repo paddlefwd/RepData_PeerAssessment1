@@ -1,9 +1,10 @@
----
+<!---
 title: "Reproducible Research: Peer Assessment 1"
 output: 
   html_document:
     keep_md: true
----
+--->
+## Reproducible Research: Peer Assessment 1
 
 
 ### Loading and preprocessing the data
@@ -46,7 +47,7 @@ head(by_date)
 histogram(by_date$total_steps,
           breaks=as.integer((max(by_date$total_steps) + 1000)/1000),
           type="count",
-          col="gray50",
+          col="steelblue",
           main="Distribution of Daily Total Step Count",
           xlab="Daily Total Steps")
 ```
